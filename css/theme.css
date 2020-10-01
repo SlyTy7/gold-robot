@@ -15,6 +15,27 @@
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  font-size: 65px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: .4s;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
 /*===== colors =====*/
 .gr-primary {
   color: #50BA89;

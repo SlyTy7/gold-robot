@@ -10,9 +10,13 @@ section {
 .hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)), url('../assets/images/gr-background.jpg');
-  background-position: center center;
+  background-position: left center;
   background-size: cover;
   min-height: 80vh;
+}
+
+.hero-section .hero-subheading {
+  font-style: italic;
 }
 
 /*-- temporary --*/

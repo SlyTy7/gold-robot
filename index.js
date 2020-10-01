@@ -34,7 +34,7 @@
     const parallaxPos = scrollPos / 5;
 
     hero.css({
-      "background-position": `center ${parallaxPos}px`
+      "background-position": `left ${parallaxPos}px`
     });
   }
 
