@@ -7,3 +7,19 @@ section {
   justify-content: center;
 }
 */
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url('../assets/images/gr-background.jpg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+/*-- temporary --*/
+.gr-section {
+  min-height: 800px;
+}
+
+.footer-section {
+  min-height: 500px;
+}
