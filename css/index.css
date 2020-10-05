@@ -19,11 +19,15 @@ section {
   font-style: italic;
 }
 
-/*-- temporary --*/
-.gr-section {
-  min-height: 800px;
+.academy-badge {
+  margin: 10px;
 }
 
-.footer-section {
-  min-height: 500px;
+.academy-badge a {
+  display: block;
+}
+
+.academy-badge a img {
+  width: 100%;
+  display: block;
 }
