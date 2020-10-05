@@ -81,49 +81,6 @@ button:hover {
   background-color: transparent;
 }
 
-/*===== navigation =====*/
-.gr-nav-section {
-  padding: 15px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  transition: .4s;
-}
-
-.gr-nav-section .desktop-nav-container {
-  display: flex;
-  flex-direction: row;
-  max-width: 944px;
-  width: 100%;
-  margin: 0 auto;
-  height: 50px;
-}
-
-.gr-nav-section .desktop-nav-container .desktop-nav {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.gr-nav-section .desktop-nav-container .desktop-nav li {
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.gr-nav-section .desktop-nav-container .desktop-nav li a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.gr-nav-section .mobile-nav-container {
-  display: none;
-}
-
 /*===== section =====*/
 .gr-section {
   padding: 50px;
@@ -247,4 +204,47 @@ button:hover {
 
 .gr-shadow-5 {
   box-shadow: 5px 5px 10px 4px #333333;
+}
+
+/*===== navigation =====*/
+.gr-nav-section {
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: .4s;
+}
+
+.gr-nav-section .desktop-nav-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 944px;
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.gr-nav-section .desktop-nav-container .desktop-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.gr-nav-section .desktop-nav-container .desktop-nav li {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gr-nav-section .desktop-nav-container .desktop-nav li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gr-nav-section .mobile-nav-container {
+  display: none;
 }
