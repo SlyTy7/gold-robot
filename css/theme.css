@@ -151,6 +151,20 @@ button:hover {
   margin: 0 auto 0 0;
 }
 
+/*==== alignment =====*/
+.gr-text-left {
+  text-align: left;
+}
+
+.gr-text-center {
+  text-align: center;
+}
+
+.gr-text-right {
+  text-align: right;
+}
+
+/*===== layout =====*/
 .gr-row {
   display: flex;
   flex-direction: row;
