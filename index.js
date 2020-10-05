@@ -41,11 +41,11 @@
   const navFade = scrollPos => {
     const nav = $("nav");
     if (scrollPos > 0) {
-      nav.addClass("gr-primary-bg gr-shadow-0");
+      nav.addClass("gr-dark-bg gr-shadow-2");
       nav.removeClass("gr-transparent-bg gr-shadow-none");
     } else {
       nav.addClass("gr-transparent-bg gr-shadow-none");
-      nav.removeClass("gr-primary-bg gr-shadow-0");
+      nav.removeClass("gr-dark-bg gr-shadow-2");
     }
   }
 
