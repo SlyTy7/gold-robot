@@ -151,6 +151,61 @@ button:hover {
   margin: 0 auto 0 0;
 }
 
+.gr-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gr-section .gr-col-1 {
+  flex-basis: 8.333%
+}
+
+.gr-section .gr-col-2 {
+  flex-basis: 16.666%;
+}
+
+.gr-section .gr-col-3 {
+  flex-basis: 25%;
+}
+
+.gr-section .gr-col-4 {
+  flex-basis: 33.333%;
+}
+
+.gr-section .gr-col-5 {
+  flex-basis: 41.666%;
+}
+
+.gr-section .gr-col-6 {
+  flex-basis: 50%;
+}
+
+.gr-section .gr-col-7 {
+  flex-basis: 58.333%;
+}
+
+.gr-section .gr-col-8 {
+  flex-basis: 66.666%;
+}
+
+.gr-section .gr-col-9 {
+  flex-basis: 75%;
+}
+
+.gr-section .gr-col-10 {
+  flex-basis: 83.333%;
+}
+
+.gr-section .gr-col-11 {
+  flex-basis: 91.666%;
+}
+
+.gr-section .gr-col-12 {
+  flex-basis: 100%;
+}
+
 /*===== shadows =====*/
 .gr-shadow-none {
   box-shadow: none;
