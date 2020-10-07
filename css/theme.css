@@ -245,7 +245,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   width: 100%;
 }
 
@@ -261,6 +261,12 @@ button:hover {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .gr-nav-section .mobile-nav-container {
