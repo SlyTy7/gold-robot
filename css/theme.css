@@ -20,6 +20,8 @@ h1 {
   font-weight: 800;
   text-transform: uppercase;
   text-shadow: 3px 3px 5px #000000b8;
+  line-height: .87;
+  margin-bottom: 10px;
 }
 
 h2 {
