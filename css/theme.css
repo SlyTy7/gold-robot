@@ -57,7 +57,7 @@ button:hover {
 }
 
 .gr-secondary {
-  color: #f5b700;
+  color: #fdde50;
 }
 
 .gr-accent {
@@ -77,7 +77,7 @@ button:hover {
 }
 
 .gr-secondary-bg {
-  background-color: #f5b700;
+  background-color: #fdde50;
 }
 
 .gr-accent-bg {
@@ -216,7 +216,7 @@ button:hover {
 
 /*===== navigation =====*/
 .gr-nav-section {
-  padding: 15px;
+  padding: 0 15px;
   position: fixed;
   left: 0;
   right: 0;
@@ -229,7 +229,15 @@ button:hover {
   max-width: 944px;
   width: 100%;
   margin: 0 auto;
-  height: 50px;
+  height: 75px;
+}
+
+.gr-nav-section .desktop-nav-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
 }
 
 .gr-nav-section .desktop-nav-container .logo img {
@@ -250,7 +258,7 @@ button:hover {
 }
 
 .gr-nav-section .desktop-nav-container .desktop-nav li {
-  height: 50px;
+  height: 75px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -267,6 +275,11 @@ button:hover {
   align-items: center;
   padding: 20px;
   margin-left: 20px;
+}
+
+.gr-nav-section .desktop-nav-container .desktop-nav li a:hover {
+  border-top: solid 3px transparent;
+  border-bottom: solid 3px #fdde50;
 }
 
 .gr-nav-section .mobile-nav-container {
