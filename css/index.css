@@ -1,6 +1,6 @@
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)), url('../assets/images/gr-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)), url('../assets/images/gold-bg.jpg');
   background-position: left center;
   background-size: cover;
   min-height: 80vh;
