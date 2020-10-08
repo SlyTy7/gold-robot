@@ -106,7 +106,7 @@ button:hover {
 
 /*===== section =====*/
 .gr-section {
-  padding: 50px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,18 +117,30 @@ button:hover {
   max-width: 944px;
   width: 100%;
   margin: 0 auto;
-}
-
-.gr-section-right {
-  max-width: 944px;
-  width: 100%;
-  margin: 0 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .gr-section-left {
   max-width: 944px;
   width: 100%;
-  margin: 0 auto 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.gr-section-right {
+  max-width: 944px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 /*==== alignment =====*/
