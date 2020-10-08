@@ -3,6 +3,7 @@
     if (!window.goldie) window.goldie = {};
 
     addWindowScrollListener();
+    addButtonListeners();
 
     console.log("BEEP BOOP GOLD ROBOT BEEP");
   };
@@ -27,7 +28,25 @@
       window.goldie.scrolling = true;
       window.goldie.scrollEvent = e;
     });
-  };
+  }
+
+  const addButtonListeners = () => {
+    const buttons = $(".gr-smooth-link");
+
+    buttons.click(e => {
+      const buttonClicked = $(e.currentTarget);
+      const selector = buttonClicked.data().target;
+      const section = $(`.${selector}`);
+      const offset = section.offset().top - 75;
+
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth'
+      });
+
+      e.preventDefault();
+    })
+  }
 
   const parallaxHero = scrollPos => {
     const hero = $(".hero-section");
