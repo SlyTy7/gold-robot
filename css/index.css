@@ -28,3 +28,15 @@
   display: block;
   padding: 0 50px;
 }
+
+.section-button-row {
+  display: flex;
+}
+
+.section-button-row button {
+  margin-right: 20px;
+}
+
+.section-button-row button:last-of-type {
+  margin-right: none;
+}
